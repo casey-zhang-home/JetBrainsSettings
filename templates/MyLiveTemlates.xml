@@ -1,4 +1,12 @@
 <templateSet group="MyLiveTemlates">
-  <template name="priint" value="private int  " description="define private int properties" toReformat="false" toShortenFQNames="true" />
-  <template name="pristr" value="private String  " description="define private String properties" toReformat="false" toShortenFQNames="true" />
+  <template name="priint" value="private int " shortcut="SPACE" description="define private int properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pristr" value="private String " shortcut="SPACE" description="define private String properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
